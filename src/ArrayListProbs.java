@@ -74,5 +74,15 @@ public class ArrayListProbs {
         }
         return list.get(bookIndex);
     }
+    public ArrayList<Book> banBook(ArrayList<Book> list, Book book){
+        String title = book.getTitle();
+        for (int i = 0; i < list.size(); i++) {
+            if(title.equals(list.get(i).getTitle())) {
+                list.remove(i);
+                i--;
+            }
+        }
+        return list;
+    }
 
 }

@@ -14,8 +14,8 @@ public class ArrayListProbsRunner {
         System.out.println(a.removeLenN(new ArrayList<String>(Arrays.asList("wow",  "hello",  "world",  "omg")),  3));
         System.out.println(a.dumbestPerson(new ArrayList<Person>(Arrays.asList(new Person("Rita",  150),  new  Person("Ron",  100),  new  Person("Ronda",  120)))));
         System.out.println(a.highestPricedBook(new ArrayList<Book>(Arrays.asList(new Book("Book  1",  "Author  1",  12.99),  new  Book("Book  2",  "Author  2",  15.99),  new  Book("Book  3",  "Author  3",  9.99)))).toString());
-        /*System.out.println(a.banBook(new ArrayList<Book>(Arrays.asList(new Book("Book  1",  "Author  1",  12.99),  new  Book("Book  2",  "Author  2",  15.99),  new  Book("Book  3",  "Author  3",  9.99))),  new  Book("Book  1",  "Author  1",  12.99)));
-        Bookstore  store  =  new  Bookstore();
+        System.out.println(a.banBook(new ArrayList<Book>(Arrays.asList(new Book("Book  1",  "Author  1",  12.99),  new  Book("Book  2",  "Author  2",  15.99),  new  Book("Book  3",  "Author  3",  9.99))),  new  Book("Book  1",  "Author  1",  12.99)));
+        /*Bookstore  store  =  new  Bookstore();
         store.addBook(new Book("Book  1",  "Author  1",  12.99));
         store.addBook(new Book("Book  2",  "Author  2",  15.99));
         store.addBook(new Book("Book  3",  "Author  3",  9.99));
